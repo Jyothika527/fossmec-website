@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FOSSMEC | Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #021323; /* Deep navy blue */
+      color: #e6edf3;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #021323;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      border-bottom: 1px solid #30363d;
+    }
+
+    header img {
+      height: 60px;
+      background-color: #021323;
+    }
+
+    nav a {
+      color: #e6edf3;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #58a6ff;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 10px;
+    }
+
+    /* Grid Layout */
+    .grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #021323;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card p {
+      padding: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #021323;
+      color: #8b949e;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <img src="/home/vinod/Documents/logo.png" alt="FOSSMEC Logo"
+    style="height: 100px; width: auto;">
+    <h1 style="margin: 0; font-size: 40px; color: #e6edf3;">FOSSMEC</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About FOSSMEC</h2>
+    <p>
+      FOSSMEC stands for the Free and Open Source Cell at Govt. Model Engineering College, Kochi (MEC). It's a community dedicated to promoting and fostering the Free and Open Source Software (FOSS) ecosystem, particularly within the college and beyond. They aim to cultivate a collaborative culture, encourage open-source contributions, and provide a platform for enthusiasts to learn and engage with open-source projects.
+    FOSSMEC's primary goal is to promote and strengthen the FOSS ecosystem among MEC students and the wider community. 
+They organize events, workshops, and collaborations to engage with open-source software and technologies.
+FOSSMEC serves as a hub for FOSS enthusiasts, providing a space for learning, sharing knowledge, and contributing to various open-source projects. 
+They actively collaborate with other organizations, like IEEE MEC SB and Polygon Guild Kochi to organize events and initiatives. 
+    </p>
+  </section>
+
+  <!-- Events Section -->
+<section id="events">
+  <h2>Events</h2>
+  <div class="grid">
+  <div class="card">
+      <img src="/home/vinod/Documents/lets git it.png" alt="Let's git it">
+      <p><strong>Let's git it </strong><br>The "Let's Git It" event by FOSS MEC (Free and Open Source Software Club of Model Engineering College) was a workshop designed to introduce students to version control systems, primarily focusing on Git and GitHub.</p>
+    </div>
+    <div class="card">
+      <img src="/home/vinod/Documents/genesis.png" alt="Genesis">
+      <p><strong>Genesis</strong><br>FOSS MEC, Computer and Signal Processing societies of IEEE MEC SB in collaboration with Polygon Guild Kochi brings to you Gen3sis, your portal to explore the Block-Verse.</p>
+      </div>
+      <div class="card">
+      <img src="/home/vinod/Documents/devsprint.png" alt="DevSprint">
+      <p><strong>DevSprint</strong><br>DEVSPRINT
+The power of open source is the power of the people. Excel invites you to dive into the world of open source! Explore fascinating projects created by brilliant organizations, with Devsprint, a developer's paradise that invites you to contribute and make an impact!A hands-on open-source development sprint hosted at MEC on October 16, encouraging real-world collaboration.</p>
+    </div>
+    <div class="card">
+      <img src="/home/vinod/Documents/intro to git.png" alt="Intro to Git/GitHub">
+      <p><strong>Intro to Git/GitHub</strong><br>"Intro to Git" was an engaging, beginner-friendly workshop hosted by FOSS MEC aimed at demystifying version control using Git — one of the most powerful tools in a developer’s toolkit.It is an offline session on mastering version control and collaborating with GitHub,will be held on October 14.</p>
+    </div>
+    <div class="card">
+      <img src="/home/vinod/Documents/debustsav.png" alt="DebUtsav ‘24">
+      <p><strong>DebUtsav ‘24</strong><br>Debutsav'24 is a flagship onboarding event hosted by FOSS MEC, tailored exclusively for first-year students to get a taste of the vibrant open-source culture and tech community at MEC.
+A mini-Debian conference will be held at MEC on October 2, celebrating open-source software and the Debian community.</p>
+    </div>
+    <div class="card">
+      <img src="/home/vinod/Documents/code a pookalam.png" alt="Code-A-Pookalam 24’">
+      <p><strong>Code-A-Pookalam 24’</strong><br>FOSSMEC in collaboration with TinkerHub MEC presents yet another season of Code-a-Pookalam this Onam season. Grab your laptops and get your thinking hats on from the 28th of August to the 10th of September to win AMAZING PRIZES!A creative virtual pookalam designing competition using code, will be held during Onam from September 16–21.</p>
+    </div>
+    
+    
+  </div>
+</section>
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <div class="card"><img src="/home/vinod/Documents/gal1.png" alt="Gallery 1"></div>
+      <div class="card"><img src="/home/vinod/Documents/gal2.png" alt="Gallery 2"></div>
+      <div class="card"><img src="/home/vinod/Documents/gal3.png" alt="Gallery 3"></div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FOSSMEC | Model Engineering College | Built with ❤️ for open source</p>
+    <img src="/home/vinod/Documents/logo.png" alt="FOSSMEC Logo"
+    style="height: 100px; width: auto;">
+    <div style="margin-top: 10px;">
+    <a href="https://instagram.com/fossmec" target="_blank" style="margin: 0 10px; color: #e6edf3;">
+      <i class="fab fa-instagram fa-2x"></i>
+    </a>
+    <a href="https://twitter.com/fossmec" target="_blank" style="margin: 0 10px; color: #e6edf3;">
+      <i class="fab fa-twitter fa-2x"></i>
+    </a>
+    <a href="https://youtube.com/@fossmec" target="_blank" style="margin: 0 10px; color: #e6edf3;">
+      <i class="fab fa-youtube fa-2x"></i>
+    </a>
+  </div>
+  </footer>
+
+</body>
+</html>
